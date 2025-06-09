@@ -108,7 +108,7 @@ public class AuthController {
             return "redirect:/login";
         }
         model.addAttribute("user", user);
-        return "bt1/welcom";
+        return "bt1/trips";
     }
 
 
